@@ -35,35 +35,6 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
-           <!-- &lt;!&ndash; Run the application using "mvn embedded-glassfish:run" &ndash;&gt;
-            <plugin>
-                <groupId>org.glassfish</groupId>
-                <artifactId>maven-embedded-glassfish-plugin</artifactId>
-                <version>${glassfish.version}</version>
-                <configuration>
-                    <goalPrefix>embedded-glassfish</goalPrefix>
-                    <app>target/${project.build.finalName}.war</app>
-                    <autoDelete>true</autoDelete>
-                    <port>8080</port>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>com.sun.jersey</groupId>
-                        <artifactId>jersey-servlet</artifactId>
-                        <version>${jersey.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>javax.servlet</groupId>
-                        <artifactId>javax.servlet-api</artifactId>
-                        <version>3.0.1</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.glassfish</groupId>
-                        <artifactId>javax.ejb</artifactId>
-                        <version>${glassfish.version}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>-->
         </plugins>
     </build>
     <dependencies>
