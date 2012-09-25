@@ -11,7 +11,7 @@
 
         <plugins>
             <plugin>
-                <!-- JETTY 6 PLUGIN -->
+                <!-- JETTY 8 PLUGIN -->
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>8.1.2.v20120308</version>
