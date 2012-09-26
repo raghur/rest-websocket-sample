@@ -22,6 +22,7 @@ public class MyResource {
 
     static {
         users = new ConcurrentHashMap<String, String>();
+        users.put("someuser","");
     }
     /** Method processing HTTP GET requests, producing "text/plain" MIME media
      * type.
