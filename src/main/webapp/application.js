@@ -56,6 +56,10 @@
                     });
                     // Publish on a service channel since the message is for the server only
                     cometd.publish('/service/hello', { name: 'World' });
+                    cometd.subscribe('/useractivity', function(message)
+                    {
+                        $('#body').append('<div>Server Says: ' + message.data.userevent + '</div>');
+                    });
                 });
             }
         }

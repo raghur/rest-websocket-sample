@@ -41,4 +41,5 @@ public class HelloService extends AbstractService
         output.put("greeting", "Hello, " + name);
         remote.deliver(getServerSession(), "/hello", output, null);
     }
+
 }
