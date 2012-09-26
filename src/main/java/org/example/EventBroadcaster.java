@@ -13,7 +13,6 @@ public class EventBroadcaster {
     public static final String USER_EVENT = "userevent";
     private final BayeuxServer server;
     private LocalSession session;
-    private EventBroadcaster instance = null;
 
     public  EventBroadcaster (BayeuxServer server) {
         this.server = server;
